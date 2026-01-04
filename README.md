@@ -34,4 +34,5 @@ Feature Engineering
 Feature engineering involves the process of enhancing the performance of predictive modeling on a given dataset through the manipulation and transformation of its feature space. The current approaches for automating this process involve either expanding the dataset explicitly with all transformed features and then performing feature selection, or exploring the transformed feature space through evaluation-guided search. We will utilize a method known as feature selection to identify and define two closely interconnected entities.
 The feature selection that was chosen was the exclusion of helmets and gloves, as these variables are highly correlated with helmets and gloves (Figure 5). This aids the model in establishing the criteria for classifying an object as a glove or not a glove, and vice versa. The exclusion of safety shoes from the feature selection can be attributed to the highly improbable scenario of individuals engaging in work activities without any form of footwear.
 
+https://github.com/user-attachments/assets/f43113c3-393e-4b3c-b546-2906da6d122e
 
